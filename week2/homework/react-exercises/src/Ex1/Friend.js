@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import Button from './Button'
+import Button from '../Button Component/Button'
 import FriendProfile from './FriendProfile'
 
 const Friend=() =>{
@@ -38,7 +38,7 @@ const Friend=() =>{
   return (
     <div>
       <h1>Ex1: New friend on demand</h1>
-      <Button onClick={getFriend} />
+      <Button onClick={getFriend}>Get A Friend!</Button>
       {isLoading && <p>Loading ...</p>}
       {friend ? <FriendProfile friend={friend}/> : null}
       {error && <div>"something wrong happened!!"</div>}
