@@ -40,7 +40,7 @@ const Friend=() =>{
       <h1>Ex1: New friend on demand</h1>
       <Button onClick={getFriend}>Get A Friend!</Button>
       {isLoading && <p>Loading ...</p>}
-      {friend ? <FriendProfile friend={friend}/> : null}
+      {friend && !isLoading ? <FriendProfile friend={friend}/> : null}
       {error && <div>"something wrong happened!!"</div>}
 
     </div>
