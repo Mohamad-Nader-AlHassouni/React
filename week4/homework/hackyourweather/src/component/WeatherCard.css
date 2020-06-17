@@ -1,0 +1,19 @@
+.card {
+    display: block;
+    width: 400px;
+    border: 1px solid #000;
+    margin: 60px auto;
+    text-align: left;
+    padding: 5px 30px;
+}
+
+.closeCard {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.closeButton {
+    font-size: 1.2rem;
+    background-color: #e6e6e6;
+    border-radius: 10px;
+}

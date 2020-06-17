@@ -1,0 +1,14 @@
+.forcast {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    text-align: center;
+}
+.recharts-wrapper {
+    margin : 0 auto;
+  }
+
+.backButton {
+    font-size: 1.2rem;
+    background-color: #e6e6e6;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
